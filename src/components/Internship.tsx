@@ -50,8 +50,8 @@ const internshipData = [
             <b>Roal</b> : Javascript Developer Intern <br/>
             <b>Location</b> : Work From Home <br/>
             <b>Tech Stack Used</b> : HTML, CSS, ChakraUI, Javascript, TypeScript, ReactJS, NextJS <br/>
-        During my internship as a JavaScript Developer at BannerBot, I had the opportunity to work remotely and contribute significantly to the team's efforts. My primary role was collaborating with the internal admin panel team to enhance functionality, streamline workflows, and ultimately improve the user experience. This involved not only backend development but also front-end web development, where I focused on creating a seamless user interface and introducing engaging features. As part of my contributions, I developed a captivating landing page for the company's website. Moreover, I had the privilege of creating aweb application designed to empower users to craft stunning posters with ease. <br/>
-        These experiences allowed me to strengthen my development skills and contribute to the company's vision of enhancing design and user interaction.
+        During my internship as a JavaScript Developer at BannerBot, I had the opportunity to work remotely and contribute significantly to the team&apos;s efforts. My primary role was collaborating with the internal admin panel team to enhance functionality, streamline workflows, and ultimately improve the user experience. This involved not only backend development but also front-end web development, where I focused on creating a seamless user interface and introducing engaging features. As part of my contributions, I developed a captivating landing page for the company&apos;s website. Moreover, I had the privilege of creating aweb application designed to empower users to craft stunning posters with ease. <br/>
+        These experiences allowed me to strengthen my development skills and contribute to the company&apos;s vision of enhancing design and user interaction.
         </p>
       </>
     ),
@@ -65,7 +65,7 @@ const internshipData = [
     description: (
       <>
         <p>
-        In my Groweasy landing page project, I translated a Figma design into a fully functional webpage from scratch. Using vanilla CSS, I meticulously styled and made the page responsive. I also integrated a user-friendly email submission form for visitors to receive future notifications from the company, creating an engaging landing page that boosts the company's online presence and user interaction.
+        In my Groweasy landing page project, I translated a Figma design into a fully functional webpage from scratch. Using vanilla CSS, I meticulously styled and made the page responsive. I also integrated a user-friendly email submission form for visitors to receive future notifications from the company, creating an engaging landing page that boosts the company&apos;s online presence and user interaction.
         </p>
       </>
     ),

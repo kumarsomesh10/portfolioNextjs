@@ -13,7 +13,7 @@ export function About() {
           translateZ="60"
           className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 text-center"
         >
-          Hey 🤝, I'm Somesh Kumar, a B.Tech CSE student @IIIT Kalyani. I'm passionate about 👨‍💻 coding, problem-solving, and building impactful web apps. For the frontend, I specialize in React/Next.js with Tailwind CSS and TypeScript, while for the backend, I work in Node.js with MongoDB and ExpressJS. 🚀
+          Hey 🤝, I&apos;m Somesh Kumar, a B.Tech CSE student @IIIT Kalyani. I&apos;m passionate about 👨‍💻 coding, problem-solving, and building impactful web apps. For the frontend, I specialize in React/Next.js with Tailwind CSS and TypeScript, while for the backend, I work in Node.js with MongoDB and ExpressJS. 🚀
 
 
         </CardItem>
