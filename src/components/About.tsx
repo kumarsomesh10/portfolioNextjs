@@ -26,6 +26,16 @@ export function About() {
             alt="thumbnail"
           />
         </CardItem>
+        <CardItem translateZ="80" className="w-full mt-8 flex justify-center">
+          <a
+            href="https://drive.google.com/file/d/1YouwPLCQ2fkAPBvNQ_65fOd0gULamEvd/view"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-700 text-center"
+          >
+            View My Resume
+          </a>
+        </CardItem>
         
       </CardBody>
     </CardContainer>

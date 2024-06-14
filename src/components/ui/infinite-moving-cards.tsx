@@ -93,7 +93,7 @@ export const InfiniteMovingCards = ({
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
       >
-        {items.map((item, idx) => (
+        {items.map((item) => (
           <li
             className="w-[350px] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-700 px-8 py-6 md:w-[450px]"
             style={{
@@ -102,13 +102,13 @@ export const InfiniteMovingCards = ({
             }}
             key={item.name}
           >
-            <h2 className=" text-2xl text-white text-center p-2">{item.name} </h2>
+            <h2 className=" text-2xl text-blue-800 text-center p-2">{item.name}</h2>
             {item.image === "" ? null : 
               <img
-              src={item.image}
-              alt={item.name}
-              className="object-cover rounded-md mb-4 w-full h-40"
-            />
+                src={item.image}
+                alt={item.name}
+                className="object-cover rounded-md mb-4 w-full h-40"
+              />
             }
             
             <blockquote>
@@ -116,20 +116,21 @@ export const InfiniteMovingCards = ({
                 aria-hidden="true"
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
-              <span className=" relative z-20 text-sm leading-[1.6] text-gray-100 font-normal">
+              <span className=" relative z-20 text-sm leading-[1.6] text-white font-normal">
                 {item.description}
               </span>
               <div className="relative z-20 mt-6 flex flex-col gap-1">
-                <span className=" text-sm leading-[1.6] text-gray-400 font-normal">
-                  Tech: {item.tech}
+                <span className=" text-sm leading-[1.6] text-green-400 font-bold">
+                   Tech Stack : <span className=" text-sm leading-[1.6] text-blue-800 font-normal">{item.tech}</span>
                 </span>
-                <div className="flex gap-2">
+                
+                <div className="flex justify-between">
                   {item.sourceCodeUrl === "" ? null :                   
                     <a
                       href={item.sourceCodeUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-sm leading-[1.6] text-gray-400 font-normal hover:text-white hover:underline"
+                      className="text-sm leading-[1.6] text-red-400 font-normal hover:text-red-600 hover:underline"
                     >
                       Source Code
                     </a>
@@ -139,7 +140,7 @@ export const InfiniteMovingCards = ({
                       href={item.deployUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-sm leading-[1.6] text-gray-400 font-normal hover:text-white hover:underline"
+                      className="text-sm leading-[1.6]  text-red-400 font-normal hover:text-red-600 hover:underline"
                     >
                       Deployed App
                     </a>
